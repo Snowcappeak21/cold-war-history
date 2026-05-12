@@ -74,7 +74,7 @@ const content = {
         title: "THE NIGHT THE WAR STARTED",
         audioFile: "/audio/clip3.mp3",
         pullQuote: "I remember feeling kind of afraid, thinking, wow, could this turn into a riot?",
-        transcript: "The night the Gulf War began in January 1991, my mom was a freshman at Ohio University. She didn't own a TV. There was no internet. She describes looking out her dorm window and seeing students marching through the streets with torches protesting the war. She remembers fighting with people in the TV lounge to change the channel from David Letterman to the news — and not being able to find out what was actually happening until the next day.",
+        transcript: "The night the Gulf War began in January 1991, my mom was a freshman at Ohio University. She didn't own a TV. There was no internet. She describes looking out her dorm window and seeing students marching through the streets with torches protesting the war. She remembers fighting with people in the TV lounge to change the channel from David Letterman to the news and not being able to find out what was actually happening until the next day.",
       },
       {
         id: "clip4",
