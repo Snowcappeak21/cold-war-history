@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #14110D;
+  --color-cream: #E8E2D4;
+  --color-muted: #B5AC93;
+  --color-amber: #D4A574;
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Spectral', serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-charcoal);
+  color: var(--color-cream);
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* Lamp light effect */
+#root {
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+}
+
+.lamp-light {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background:
+    radial-gradient(
+      350px circle at var(--mouse-x) var(--mouse-y),
+      rgba(212, 165, 116, 0.12),
+      transparent 70%
+    ),
+    radial-gradient(
+      700px circle at var(--mouse-x) var(--mouse-y),
+      rgba(212, 165, 116, 0.06),
+      transparent 60%
+    );
+  transition: background 0.15s ease;
+}
+
+/* Film grain overlay */
+.film-grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow: hidden;
+  opacity: 0.10;
+}
+
+.film-grain-inner {
+  position: absolute;
+  inset: 0;
+}
+
+/* Typewriter cursor */
+.typewriter-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background-color: var(--color-amber);
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Reel spin animation */
+@keyframes spin-reel {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.reel-spinning {
+  animation: spin-reel 2s linear infinite;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-charcoal);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-amber);
+}
+
+/* Timeline active glow */
+.timeline-year-active {
+  color: var(--color-amber);
+  text-shadow: 0 0 8px rgba(212, 165, 116, 0.6);
+}

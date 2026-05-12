@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(cp -r . ..)",
+      "Bash(rm -rf cold-war-app)",
+      "Bash(npm install:*)",
+      "Bash(rm -f src/App.css src/assets/react.svg src/assets/vite.svg src/assets/hero.png)",
+      "Bash(rm -rf src/assets)",
+      "Bash(npm run:*)",
+      "Bash(pkill -f \"vite\")"
+    ]
+  }
+}
