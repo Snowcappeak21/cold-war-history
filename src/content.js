@@ -40,7 +40,7 @@ const content = {
 
   storyteller: {
     sectionNumber: "II",
-    sectionTitle: "The Storyteller",
+    sectionTitle: "Who I Chose",
     paragraphs: [
       "For this project I interviewed my mom, Robin. She was born in 1972 in Findlay, Ohio. Her family moved around a lot when she was young. They lived in Chicago for a few years while her dad worked at Motorola, then came back to Ohio so they could be near Columbus. They settled in a suburb called Westerville. She likes to tell me Westerville was a weird place. Companies used it as a \"test market,\" so her town got MTV before basically anyone else in the country, and her elementary school started at 9:25 in the morning as some experiment about school start times.",
       "When she was a sophomore in high school, her family moved again, this time to Marysville. It's a more rural town about 45 minutes from Columbus, mostly known for the Honda plant that opened there in 1982. She remembers it being a huge topic in town. The population was growing fast, and there were Japanese executives living in her neighborhood and Japanese kids at her school, which was unusual for that part of Ohio.",
@@ -53,7 +53,7 @@ const content = {
   interview: {
     sectionNumber: "III",
     sectionTitle: "The Interview",
-    intro: "The following audio clips are excerpted from a recorded interview with my mom, Robin Miller, in May 2026. Each clip is accompanied by a selected pull-quote and description.",
+    intro: "The following audio clips are excerpted from the interview I recorded with my mom, Robin Miller, in May 2026. Each clip clip is accompanied by a short description and significant quote.",
     clips: [
       {
         id: "clip1",
