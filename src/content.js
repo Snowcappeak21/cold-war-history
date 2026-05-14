@@ -47,7 +47,7 @@ const content = {
       "I picked her for this project because she was paying attention back then. Most of her friends weren't into current events but she was. As a senior in high school she read the front page of the Wall Street Journal in the library every morning, plus the New York Times and the Columbus Dispatch. She loved her AP history teacher and talked about world events with her dad. She won a state scholarship competition in 1990 and went to nationals in Alabama. The next year she started college at Ohio University for journalism.",
       "My mom was a regular teenager who happened to be the right age to watch the Cold War end. She was a senior in high school when the Berlin Wall came down, and she was a college freshman when the Gulf War started. The Soviet Union dissolved during her sophomore year of college which is what makes her persepctive so interesting. Her perspective is what it was like for an ordinary American to live through one of the most rapid shifts of geopolitical tensions in modern history.",
     ],
-    photoCaption: "Ohio, circa 1988",
+    photoCaption: "1986 Homecoming Dance, Westerville High School",
   },
 
   interview: {
